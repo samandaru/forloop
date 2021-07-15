@@ -20,3 +20,7 @@ for(let i=1; i<=100; i++){
         console.log(i*15);
     }
 }
+var str="Webbrain Academy";
+for(i=str.indexOf("brain"); i<=str.indexOf("brain")+5; i++){
+    console.log(str[i]);
+}
